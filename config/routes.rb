@@ -1,5 +1,7 @@
 KcwWorld::Application.routes.draw do
 
+  get "article/index"
+
   resources :categories
   resources :proverbs
   resources :photos
